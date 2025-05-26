@@ -91,6 +91,9 @@ Arayüzde her giriş alanı için uygun seçenekleri açılır listelerden seçi
 Bakım süresi ve tipi ekranda gösterilecektir.
 
 Ek olarak sonuçlar grafiksel olarak da sunulur.
+
+
+
 🖼️ Arayüz Ekran Görüntüsü
 ![Ekran görüntüsü 2025-05-26 213855](https://github.com/user-attachments/assets/df7f5a87-62f5-4202-9134-e4a03481af63)
 
