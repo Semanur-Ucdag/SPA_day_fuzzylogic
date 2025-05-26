@@ -47,10 +47,10 @@ Proje, aşağıdaki temel kavramlara dayanmaktadır:
 
 ### 🎯 Çıktı Değişkenleri
 
-| Çıktı         | Dilsel Etiketler         |
-|---------------|---------------------------|
-| Bakım Süresi   | kısa, orta, uzun          |
-| Bakım Tipi     | hafif, orta, yoğun        |
+| Çıktı         | Dilsel Etiketler              |
+|---------------|-------------------------------|
+| Bakım Süresi  | çok kısa, kısa, orta, uzun, çok uzun |
+| Bakım Tipi    | çok hafif, hafif, orta, yoğun, çok yoğun |
 
 ### 💻 Kullanılan Kütüphaneler
 
