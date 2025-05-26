@@ -7,6 +7,10 @@
 
 Bu sistem, gerçek hayatta insanlar tarafından alınan esnek kararları modellemeyi hedefleyen bulanık mantık prensipleri ile oluşturulmuş; kullanıcı dostu bir **grafik arayüz (GUI)** ile sunulmuştur.
 
+🖼️ Arayüz Ekran Görüntüsü
+![Ekran görüntüsü 2025-05-26 213855](https://github.com/user-attachments/assets/df7f5a87-62f5-4202-9134-e4a03481af63)
+
+![Ekran görüntüsü 2025-05-26 213927](https://github.com/user-attachments/assets/59ffbba5-b91f-4e93-8716-835032afbfb2)
 ---
 
 ## 🎯 Proje Amacı ve Hedefi
@@ -94,10 +98,7 @@ Ek olarak sonuçlar grafiksel olarak da sunulur.
 
 
 
-🖼️ Arayüz Ekran Görüntüsü
-![Ekran görüntüsü 2025-05-26 213855](https://github.com/user-attachments/assets/df7f5a87-62f5-4202-9134-e4a03481af63)
 
-![Ekran görüntüsü 2025-05-26 213927](https://github.com/user-attachments/assets/59ffbba5-b91f-4e93-8716-835032afbfb2)
 
 
 
