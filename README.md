@@ -66,11 +66,11 @@ Proje, aşağıdaki temel kavramlara dayanmaktadır:
 
 SPA_day_fuzzylogic/
 
- |main.py # Uygulamanın başlangıç noktası (GUI çalıştırma)|
- |fuzzy_model.py # Bulanık sistem tanımlamaları|
- |gui.py # Arayüz ve kullanıcı etkileşimi|
- |requirements.txt # Projeye özel gerekli kütüphaneler|
- |README.md |
+ -main.py # Uygulamanın başlangıç noktası (GUI çalıştırma)|
+ -fuzzy_model.py # Bulanık sistem tanımlamaları|
+ -gui.py # Arayüz ve kullanıcı etkileşimi|
+ -requirements.txt # Projeye özel gerekli kütüphaneler|
+ -README.md |
 
 ## 🖥️ Kurulum ve Çalıştırma Adımları
 
