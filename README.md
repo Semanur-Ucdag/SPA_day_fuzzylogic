@@ -66,29 +66,42 @@ Proje, aşağıdaki temel kavramlara dayanmaktadır:
 
 SPA_day_fuzzylogic/
 │
-├── main.py # Uygulamanın başlangıç noktası (GUI çalıştırma)
-├── fuzzy_model.py # Bulanık sistem tanımlamaları
-├── gui.py # Arayüz ve kullanıcı etkileşimi
-├── requirements.txt # Projeye özel gerekli kütüphaneler
-└── README.md 
+├── |main.py # Uygulamanın başlangıç noktası (GUI çalıştırma)|
+├── |fuzzy_model.py # Bulanık sistem tanımlamaları|
+├── |gui.py # Arayüz ve kullanıcı etkileşimi|
+├── |requirements.txt # Projeye özel gerekli kütüphaneler|
+└── |README.md |
 
 ## 🖥️ Kurulum ve Çalıştırma Adımları
-
-Aşağıdaki adımları takip ederek projeyi kendi bilgisayarınızda çalıştırabilirsiniz:
 
 ### 1️⃣ Depoyu Klonlayın
 
 ```bash
 git clone https://github.com/kullanici-adiniz/SPA_day_fuzzylogic.git
 cd SPA_day_fuzzylogic
-
-### Gerekli Paketleri Yükleyin
+2️⃣ Sanal Ortam 
 bash
+Kopyala
+
+python -m venv venv
+3️⃣ Sanal Ortamı Aktif Edin
+Windows:
+
+bash
+Kopyala
+Düzenle
+venv\Scripts\activate
+
+4️⃣ Gerekli Paketleri Yükleyin
+bash
+Kopyala
+Düzenle
 pip install -r requirements.txt
-
-### Uygulamayı Başlatın
+5️⃣ Uygulamayı Başlatın
+bash
+Kopyala
+Düzenle
 python main.py
-
 🧪 Kullanım Talimatları
 Arayüzde her giriş alanı için uygun seçenekleri açılır listelerden seçin.
 
