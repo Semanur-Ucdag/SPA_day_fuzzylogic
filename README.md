@@ -9,9 +9,10 @@ Bu sistem, gerçek hayatta insanlar tarafından alınan esnek kararları modelle
 
 🖼️ Arayüz Ekran Görüntüsü
 
+![Ekran görüntüsü 2025-05-26 213855](https://github.com/user-attachments/assets/db4e90fd-e2d7-469c-9c44-906813c13a99)
+
 ![Ekran görüntüsü 2025-05-26 213927](https://github.com/user-attachments/assets/e7278e6c-3d85-4faa-b40b-6ace69c97a17)
 
-![Ekran görüntüsü 2025-05-26 213855](https://github.com/user-attachments/assets/db4e90fd-e2d7-469c-9c44-906813c13a99)
 
 ---
 ## 🎯 Proje Amacı ve Hedefi
