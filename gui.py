@@ -19,7 +19,7 @@ class SpaAssistantApp:
         root.geometry("1200x800")
 
         # --- JPEG Arka Plan ---
-        self.bg_image = Image.open("pngtree-beautiful-pink-orchid-on-white-towel-in-spa-salon-image_15938759.jpg")  # JPEG dosya yolunu buraya yaz
+        self.bg_image = Image.open("back.jpg")  # JPEG dosya yolunu buraya yaz
         self.bg_image = self.bg_image.resize((1200, 800), Image.Resampling.LANCZOS)
         self.bg_photo = ImageTk.PhotoImage(self.bg_image)
 
@@ -78,24 +78,24 @@ class SpaAssistantApp:
         self.entries = {}
 
         for i, (label, options) in enumerate(self.combo_labels):
-            tk.Label(self.scrollable_frame, text=label, bg="#ffe6f0", font=("Comic Sans MS", 10, "bold")).grid(row=i, column=0, padx=10, pady=10, sticky="w")
-            combo = ttk.Combobox(self.scrollable_frame, values=options, font=("Arial", 10), state="readonly")
+            tk.Label(self.scrollable_frame, text=label, bg="#ffe6f0", font=("Lucida Calligraphy", 12, "bold")).grid(row=i, column=0, padx=10, pady=10, sticky="w")
+            combo = ttk.Combobox(self.scrollable_frame, values=options, font=("Lucida Calligraphy", 10), state="readonly")
             combo.grid(row=i, column=1, padx=10, pady=10)
-            combo.set(options[1])  # varsayılan: orta
+            combo.set(' ')  # varsayılan: orta none dene sonra
             self.entries[label] = combo
 
         # Butonlar
-        self.calc_btn = tk.Button(self.scrollable_frame, text="🌸 SPA Rutini Hesapla 🌸", bg="#ff99cc", fg="white", font=("Arial", 10, "bold"), command=self.hesapla)
+        self.calc_btn = tk.Button(self.scrollable_frame, text="🌸 SPA Rutini Hesapla 🌸", bg="#ff99cc", fg="white", font=("Arial", 12, "bold"), command=self.hesapla)
         self.calc_btn.grid(row=6, column=0, columnspan=2, pady=10)
 
-        self.graph_btn = tk.Button(self.scrollable_frame, text="📊 Grafikleri Göster 📊", bg="#ff99cc", fg="white", font=("Arial", 10, "bold"), command=self.toggle_graphs)
+        self.graph_btn = tk.Button(self.scrollable_frame, text="📊 Grafikleri Göster 📊", bg="#ff99cc", fg="white", font=("Arial", 12, "bold"), command=self.toggle_graphs)
         self.graph_btn.grid(row=7, column=0, columnspan=2, pady=10)
 
         # Sonuç Etiketleri
-        self.result1 = tk.Label(self.scrollable_frame, text="Önerilen Süre: ", font=("Arial", 12, "bold"), bg="#ffe6f0", fg="#99004d")
+        self.result1 = tk.Label(self.scrollable_frame, text="Önerilen Süre: ", font=("Lucida Calligraphy", 12, "bold"), bg="#ffe6f0", fg="#99004d")
         self.result1.grid(row=8, column=0, columnspan=2, pady=5)
 
-        self.result2 = tk.Label(self.scrollable_frame, text="Bakım Tipi Skoru: ", font=("Arial", 12, "bold"), bg="#ffe6f0", fg="#99004d")
+        self.result2 = tk.Label(self.scrollable_frame, text="Bakım Tipi Skoru: ", font=("Lucida Calligraphy", 12, "bold"), bg="#ffe6f0", fg="#99004d")
         self.result2.grid(row=9, column=0, columnspan=2, pady=5)
 
         # Grafik alanı
@@ -111,7 +111,7 @@ class SpaAssistantApp:
         frame = self.frames[self.gif_frame_index]
         self.gif_canvas.create_image(0, 0, anchor=tk.NW, image=frame)
         self.gif_frame_index = (self.gif_frame_index + 1) % len(self.frames)
-        self.root.after(100, self.animate_gif)  # 100 ms hızında oynat
+        self.root.after(80, self.animate_gif)  # 100 ms hızında oynat
 
 
     def hesapla(self):
