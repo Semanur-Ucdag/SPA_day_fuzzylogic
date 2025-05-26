@@ -8,11 +8,12 @@
 Bu sistem, gerçek hayatta insanlar tarafından alınan esnek kararları modellemeyi hedefleyen bulanık mantık prensipleri ile oluşturulmuş; kullanıcı dostu bir **grafik arayüz (GUI)** ile sunulmuştur.
 
 🖼️ Arayüz Ekran Görüntüsü
-![Ekran görüntüsü 2025-05-26 213855](https://github.com/user-attachments/assets/df7f5a87-62f5-4202-9134-e4a03481af63)
 
-![Ekran görüntüsü 2025-05-26 213927](https://github.com/user-attachments/assets/59ffbba5-b91f-4e93-8716-835032afbfb2)
+![Ekran görüntüsü 2025-05-26 213927](https://github.com/user-attachments/assets/e7278e6c-3d85-4faa-b40b-6ace69c97a17)
+
+![Ekran görüntüsü 2025-05-26 213855](https://github.com/user-attachments/assets/db4e90fd-e2d7-469c-9c44-906813c13a99)
+
 ---
-
 ## 🎯 Proje Amacı ve Hedefi
 
 - Gündelik kişisel bakım kararlarını, sabit kurallar yerine bulanık mantıkla daha esnek biçimde modellemek.
@@ -62,6 +63,7 @@ Proje, aşağıdaki temel kavramlara dayanmaktadır:
 ---
 
 ## 📁 Dosya Yapısı
+
 SPA_day_fuzzylogic/
 │
 ├── main.py # Uygulamanın başlangıç noktası (GUI çalıştırma)
